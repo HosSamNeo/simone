@@ -428,3 +428,70 @@ body {
     }
 }
 /* END ABOUT SECTION  */
+
+/* START SERVICES SECTION  */
+.services {
+    padding: 70px 0px;
+    background-color: #f8f9fa;
+    
+}
+.services .serv-f{
+   display: flex;
+   flex-wrap: wrap;
+}
+.service {
+    width: 50%;
+    display: flex;
+    margin-bottom: 20px;
+}
+.service .icon-box{
+    padding: 20px 20px;
+    width: 70px;
+    height: 70px;
+    margin: 0px 20px 20px 20px ;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgb(0 0 0 / 15%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.service .icon-box i {
+    color: #20c997;
+    font-size: 30px;
+}
+.service h3 {
+    color: rgb(37, 43, 51);
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+}
+.service p {
+    color: rgb(76, 77, 77);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+
+@media screen and (max-width:900px){
+    .services .serv-f{
+        width: 80%;
+     }
+}
+
+@media (max-width:768px){
+    .service {
+        width: 100%;
+        
+    }
+}
+@media (max-width:468px){
+    .service {
+        width: 100%;
+    }
+    .services .serv-f{
+        width: 100%;
+     }
+}
+/* END SERVICES SECTION  */

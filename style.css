@@ -633,6 +633,7 @@ body {
 }
 .btn-wrapper button i{
     color:rgb(108, 117, 125) ;
+    transition: all 1s;
 }
 .btn-wrapper button:hover {
     background-color: rgb(108, 117, 125);

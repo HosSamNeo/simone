@@ -155,6 +155,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
+    overflow: hidden;
 }
 .home .home-content p.one{
     font-size: 28px;
@@ -165,6 +167,113 @@ body {
     font-size: 55px;
     font-weight: 600;
     margin-bottom: 16px;
+}
+.home .home-content h2::after {
+    content: "I'm |" ;
+    animation-name: typed ;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+@keyframes typed {
+    1%{content: "I'm S|"}
+    2%{content: "I'm Si|"}
+    3%{content: "I'm Sim|"}
+    4%{content: "I'm Simo|"}
+    5%{content: "I'm Simon|"}
+    6%{content: "I'm Simone|"}
+    7%{content: "I'm Simone O|"}
+    8%{content: "I'm Simone Ol|"}
+    9%{content: "I'm Simone Oli|"}
+    10%{content: "I'm Simone Oliv|"}
+    11%{content: "I'm Simone Olivi|"}
+    12%{content: "I'm Simone Olivia|"}
+    13%{content: "I'm Simone Olivia.|"}
+    14%{content: "I'm Simone Olivi|"}
+    15%{content: "I'm Simone Oliv|"}
+    16%{content: "I'm Simone Oli|"}
+    17%{content: "I'm Simone Ol|"}
+    18%{content: "I'm Simone O|"}
+    19%{content: "I'm Simone|"}
+    20%{content: "I'm Simon|"}
+    21%{content: "I'm Simo|"}
+    22%{content: "I'm Sim|"}
+    23%{content: "I'm Si|"}
+    24%{content: "I'm S|"}
+    25%{content: "I'm |"}
+    26%{content: "I'm a |"}
+    27%{content: "I'm a F|"}
+    28%{content: "I'm a Fr|"}
+    29%{content: "I'm a Fre|"}
+    30%{content: "I'm a Free|"}
+    31%{content: "I'm a Freel|"}
+    32%{content: "I'm a Freela|"}
+    33%{content: "I'm a Freelan|"}
+    34%{content: "I'm a Freelanc|"}
+    35%{content: "I'm a Freelance|"}
+    36%{content: "I'm a Freelancer|"}
+    37%{content: "I'm a Freelancer.|"}
+    38%{content: "I'm a Freelancer|"}
+    39%{content: "I'm a Freelance|"}
+    40%{content: "I'm a Freelanc|"}
+    41%{content: "I'm a Freelan|"}
+    42%{content: "I'm a Freela|"}
+    43%{content: "I'm a Freel|"}
+    44%{content: "I'm a Free|"}
+    45%{content: "I'm a Fre|"}
+    46%{content: "I'm a Fr|"}
+    47%{content: "I'm a F|"}
+    47%{content: "I'm a|"}
+    47%{content: "I'm |"}
+    48%{content: "I'm a P|"}
+    49%{content: "I'm a Ph|"}
+    50%{content: "I'm a Pho|"}
+    51%{content: "I'm a Phot|"}
+    52%{content: "I'm a Photo|"}
+    53%{content: "I'm a Photog|"}
+    54%{content: "I'm a Photogr|"}
+    55%{content: "I'm a Photogra|"}
+    56%{content: "I'm a Photograp|"}
+    57%{content: "I'm a Photograph|"}
+    58%{content: "I'm a Photographe|"}
+    59%{content: "I'm a Photographer|"}
+    60%{content: "I'm a Photographer.|"}
+    61%{content: "I'm a Photographer|"}
+    62%{content: "I'm a Photographe|"}
+    63%{content: "I'm a Photograph|"}
+    64%{content: "I'm a Photograp|"}
+    65%{content: "I'm a Photogra|"}
+    66%{content: "I'm a Photogr|"}
+    67%{content: "I'm a Photog|"}
+    68%{content: "I'm a Photo|"}
+    69%{content: "I'm a Phot|"}
+    70%{content: "I'm a Pho|"}
+    71%{content: "I'm a Ph|"}
+    72%{content: "I'm a P|"}
+    72%{content: "I'm a |"}
+    72%{content: "I'm |"}
+    73%{content: "I'm a D|"}
+    74%{content: "I'm a De|"}
+    75%{content: "I'm a Des|"}
+    76%{content: "I'm a Desi|"}
+    77%{content: "I'm a Desig|"}
+    78%{content: "I'm a Design|"}
+    79%{content: "I'm a Designe|"}
+    80%{content: "I'm a Designer.|"}
+    81%{content: "I'm a Designer|"}
+    82%{content: "I'm a Designe|"}
+    83%{content: "I'm a Design|"}
+    84%{content: "I'm a Desig|"}
+    85%{content: "I'm a Desi|"}
+    86%{content: "I'm a Des|"}
+    87%{content: "I'm a De|"}
+    88%{content: "I'm a D|"}
+    89%{content: "I'm a|"}
+    90%{content: "I'm |"}
+    91%{content: "I'm|"}
+    92%{content: "I'|"}
+    93%{content: "I|"}
+    94%{content: "|"}
+    95%{content: "|"}
 }
 .home .home-content p.two{
     font-size: 21px;
